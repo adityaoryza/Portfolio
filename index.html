@@ -4,116 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aditya- a web developer</title>
+    <title>Aditya-A Web Developer</title>
+    <link rel="icon" href="favicon.ico">
+    <!-- css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
+    <!-- Javascript -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" href="favicon.ico" />
   </head>
   <body>
-    <div class="header">
-      <h1 class="brand">Aditya's</h1>
-      <a href="#about" class="h-About">About</a>
-      <a href="#work" class="h-work">Work</a>
-      <a href="#contact" class="h-contact">Contact</a>
-    </div>
-    <div class="main">
-      <h1 class="my-name">Im Aditya</h1>
-      <p class="desc-txt">
-        Informatic Engginering Student at the University of Ahmad Dahlan
-      </p>
-      <img
-        class="self-img"
-        src="https://ouch-cdn2.icons8.com/qh-eb7yGJGnRmkE4sSPKRs59zRRzGoSw1qYeT3qvl2E/rs:fit:256:247/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjUv/YmQ2ZGVmODMtMTk0/Yy00M2MzLTgzNzQt/YjdkY2NiM2Y3Y2Uz/LnBuZw.png"
-      />
-    </div>
-    <div id="about" class="middle-container">
-      <div class="profile">
-        <img
-          class="AVA-IMG"
-          src="https://avatars.githubusercontent.com/u/61370748?v=4"
-          alt="myslef-img"
-        />
-        <h2>Hello.</h2>
-        <p class="text-1">
-          Nama saya Aditya Oryza Mahendra, saya adalah mahasiswa Universitas
-          Ahmad Dahlan jurusan informatika dengan NIM 2100018401. Saya lahir di
-          Cilacap pada 30 Mei 2003, saat ini saya sedang mempelajari materi
-          pemrogaman website dan website ini adalah salah satu hasil
-          pembelajaran ini.
-        </p>
-      </div>
-      <hr />
-      <div id="work" class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="graphic-design"
-            src="https://ouch-cdn2.icons8.com/7HI5422bI5DFsmJndAhvXcTM1prvmKvlmCmIrCmY2Bg/rs:fit:256:144/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODI0/L2E5ODBhNmZiLWU0/YmQtNDgzMS04ZThk/LTVjMzhhOTgwNDY5/MC5zdmc.png"
-            alt=""
-          />
-          <h3>Graphic Design</h3>
-          <p class="text-1">
-            Saya mulai belajar Graphic design sejak SMP, saya juga pernah
-            beberapa kali mengikuti kepanitiaan baik di SMA maupun di
-            Perkuliahan. Saya mengikuti kepanitiaan dalam bidang PDD atau
-            berhubungan dengan design grafis.
-          </p>
-        </div>
-
-        <div class="skill-row">
-          <img
-            class="video-editing"
-            src="https://ouch-cdn2.icons8.com/t3K1sbVeAto3R7sLwh4WA0lRYJGMgenRg0yBl5tDba4/rs:fit:256:171/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNjcz/L2NhOTE4Mjg3LTE1/M2YtNDdiNi05NjJl/LTA2YjA2ZjQ4ZjEx/NC5zdmc.png"
-            alt=""
-          />
-          <h3>Video Editing</h3>
-          <p class="text-1">
-            Selain desgin grafis saya juga mendalami bidang video editing, dua
-            hal ini memang saling berkaitan sehingga saya mendalami keduanya.
-            Beberapa aplikasi yang saya gunakan untuk video editing seperti
-            Adobe Premiere Pro, Adobe After Effects.
-          </p>
+    <section id="tittle">
+      <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="#">Aditya</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-adit"
+            aria-controls="navbar-adit"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-adit">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- tittle -->
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-sm mx-auto">
+            <h1 class="name-text">Im Aditya</h1>
+            <h2 class="desc-text">
+              Informatic Engginering Student at the University of Ahmad Dahlan
+            </h2>
+          </div>
+          <div class="col-lg-4 col-sm">
+            <img
+              class="self-img"
+              src="https://ouch-cdn2.icons8.com/qh-eb7yGJGnRmkE4sSPKRs59zRRzGoSw1qYeT3qvl2E/rs:fit:256:247/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjUv/YmQ2ZGVmODMtMTk0/Yy00M2MzLTgzNzQt/YjdkY2NiM2Y3Y2Uz/LnBuZw.png"
+            />
+          </div>
         </div>
       </div>
-      <hr />
-      <div id="contact" class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>
-          If you interested about my skills and experience feel free to contact
-          me
-        </h3>
-        <p>
-          Im looking for any opportunities about design, video editing or even
-          web development.
-        </p>
-        <a class="btn" href="mailto:name@email.com">
-          <button>Contact Me</button>
-        </a>
+    </div>
+    </section>
+    <!-- content -->
+    <section id="content">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="content-1">
+            <img
+            class="AVA-IMG"
+            src="https://avatars.githubusercontent.com/u/61370748?v=4"
+            alt="myslef-img"
+          />
+          <h2 class="hello-text">Hello.</h2>
+          <p class="text-1">
+            Nama saya Aditya Oryza Mahendra, saya adalah mahasiswa Universitas
+            Ahmad Dahlan jurusan informatika dengan NIM 2100018401. Saya lahir di
+            Cilacap pada 30 Mei 2003, saat ini saya sedang mempelajari materi
+            pemrogaman website dan website ini adalah salah satu hasil
+            pembelajaran ini.
+          </p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="content-1">
+          <h2 class="skills-text">My Skills.</h2>
+          <div class="skill-row">
+            <img
+              class="graphic-design"
+              src="https://ouch-cdn2.icons8.com/7HI5422bI5DFsmJndAhvXcTM1prvmKvlmCmIrCmY2Bg/rs:fit:256:144/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODI0/L2E5ODBhNmZiLWU0/YmQtNDgzMS04ZThk/LTVjMzhhOTgwNDY5/MC5zdmc.png"
+              alt=""
+            />
+            <h3>Graphic Design</h3>
+            <p class="text-1">
+              Saya mulai belajar Graphic design sejak SMP, saya juga pernah
+              beberapa kali mengikuti kepanitiaan baik di SMA maupun di
+              Perkuliahan. Saya mengikuti kepanitiaan dalam bidang PDD atau
+              berhubungan dengan design grafis.
+            </p>
+          </div>
+  
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="bottom-container">
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/adityaorz/"
-        target="_blank"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://twitter.com/" target="_blank"
-        >Twitter</a
-      >
-      <a
-        class="footer-link"
-        href="https://github.com/adityaoryza"
-        target="_blank"
-        >Github</a
-      >
-      <p class="copyright">© Aditya Oryza.</p>
-    </div>
+    </section>
   </body>
 </html>

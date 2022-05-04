@@ -2,62 +2,20 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 0;
   font-family: "Merriweather Sans", sans-serif;
 }
-.header {
+#tittle {
   background-color: #e4f9f5;
 }
-.brand {
-  font-family: "Sacramento", cursive;
-  margin-left: 30px;
-  margin-top: 10px;
-  display: inline-block;
+.navbar {
+  padding: 2% 5% 5% 4%;
+  font-family: "Montserrat", sans-serif;
 }
-.h-About {
-  display: inline-block;
-  margin-left: 800px;
-  color: #66bfbf;
-}
-.h-work {
-  display: inline-block;
-  margin-left: 50px;
-  color: #66bfbf;
-}
-.h-contact {
-  display: inline-block;
-  margin-left: 50px;
-  color: #66bfbf;
-}
-.main {
-  position: relative;
-  padding: 180px 0px 222px 0px;
-  margin-top: 0px;
-  background-color: #e4f9f5;
-}
-.my-name {
-  margin-bottom: 10px;
-  margin-left: 350px;
-  font-family: "Sacramento", cursive;
-  font-size: 80px;
-  color: #66bfbf;
-  display: inline-block;
-}
-.desc-txt {
-  margin-top: 0px;
-  margin-left: 270px;
-  display: inline-block;
-  color: #66bfbf;
-}
-.self-img {
-  position: absolute;
-  left: 900px;
-  top: 190px;
-}
-.middle-container {
-  text-align: center;
+.container-fluid {
+  padding: 180px 50px;
 }
 h1 {
+  font-family: "Sacramento", cursive;
   color: #66bfbf;
   line-height: 2;
 }
@@ -65,94 +23,43 @@ h1 {
 h2 {
   color: #66bfbf;
   font-weight: normal;
+  font-size: 1rem;
 }
 h3 {
   color: #11999e;
 }
-
-hr {
-  border: dotted #eaf6f6 6px;
-  border-bottom: none;
-  width: 10%;
-  margin: 100px auto;
+.name-text {
+  /* padding-top: 10%; */
+  text-align: center;
+  font-size: 3rem;
 }
-.profile {
-  margin: 100px auto;
+.desc-text {
+  text-align: center;
+}
+.self-img {
+  display: block;
+  margin: 0 auto;
+  /* width: 60%; */
+}
+.content-1 {
+  text-align: center;
+  margin: 50px auto;
   width: 50%;
 }
-.profile img {
-  height: 20%;
-  width: 30%;
+.AVA-IMG {
+  width: 40%;
+  border-radius: 50%;
 }
 .text-1 {
   line-height: 2;
+  text-align: center;
 }
-.AVA-IMG {
-  border-radius: 50%;
+.hello-text {
+  padding-top: 20px;
 }
-.skills {
-  margin-top: 100px;
+.skills-text {
+  padding-bottom: 50px;
 }
 .graphic-design {
-  padding-right: 30px;
-  float: left;
-  margin-top: 50px;
-}
-.video-editing {
-  padding-left: 30px;
-  margin-top: 50px;
-  float: right;
-}
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-}
-.bottom-container {
-  padding: 30px;
-  text-align: center;
-  background-color: #66bfbf;
-}
-a {
-  text-decoration: none;
-  margin-right: 10px;
-  color: #11999e;
-}
-a:hover {
-  transform: scale(1.1);
-  text-decoration: underline;
-}
-.contact-me {
-  width: 50%;
-  margin: 100px auto;
-  text-align: center;
-}
-button {
-  padding: 1.3em 3em;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-}
-
-button:hover {
-  background-color: #2ee59d;
-  box-shadow: 0px 15px 20px #11999e;
-  color: #fff;
-  transform: translateY(-7px);
-}
-
-button:active {
-  transform: translateY(-1px);
-}
-.copyright {
-  margin-top: 15px;
+  padding-bottom: 30px;
 }
