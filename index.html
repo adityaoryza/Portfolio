@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Aditya- a web developer</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,13 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="favicon.ico" />
   </head>
   <body>
     <div class="header">
       <h1 class="brand">Aditya's</h1>
-      <p class="h-About">About</p>
-      <p class="h-work">Work</p>
-      <p class="h-contact">Contact</p>
+      <a href="#about" class="h-About">About</a>
+      <a href="#work" class="h-work">Work</a>
+      <a href="#contact" class="h-contact">Contact</a>
     </div>
     <div class="main">
       <h1 class="my-name">Im Aditya</h1>
@@ -30,7 +31,7 @@
         src="https://ouch-cdn2.icons8.com/qh-eb7yGJGnRmkE4sSPKRs59zRRzGoSw1qYeT3qvl2E/rs:fit:256:247/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjUv/YmQ2ZGVmODMtMTk0/Yy00M2MzLTgzNzQt/YjdkY2NiM2Y3Y2Uz/LnBuZw.png"
       />
     </div>
-    <div class="middle-container">
+    <div id="about" class="middle-container">
       <div class="profile">
         <img
           class="AVA-IMG"
@@ -47,7 +48,7 @@
         </p>
       </div>
       <hr />
-      <div class="skills">
+      <div id="work" class="skills">
         <h2>My Skills.</h2>
         <div class="skill-row">
           <img
@@ -80,7 +81,7 @@
         </div>
       </div>
       <hr />
-      <div class="contact-me">
+      <div id="contact" class="contact-me">
         <h2>Get In Touch</h2>
         <h3>
           If you interested about my skills and experience feel free to contact
@@ -97,12 +98,22 @@
     </div>
 
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/adityaorz/"
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/adityaorz/"
+        target="_blank"
         >LinkedIn</a
       >
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://github.com/adityaoryza">Github</a>
-      <p>© Name Surname.</p>
+      <a class="footer-link" href="https://twitter.com/" target="_blank"
+        >Twitter</a
+      >
+      <a
+        class="footer-link"
+        href="https://github.com/adityaoryza"
+        target="_blank"
+        >Github</a
+      >
+      <p class="copyright">© Aditya Oryza.</p>
     </div>
   </body>
 </html>

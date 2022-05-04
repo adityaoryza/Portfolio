@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: "Merriweather Sans", sans-serif;
@@ -115,6 +118,10 @@ a {
   margin-right: 10px;
   color: #11999e;
 }
+a:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
 .contact-me {
   width: 50%;
   margin: 100px auto;
@@ -138,11 +145,14 @@ button {
 
 button:hover {
   background-color: #2ee59d;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  box-shadow: 0px 15px 20px #11999e;
   color: #fff;
   transform: translateY(-7px);
 }
 
 button:active {
   transform: translateY(-1px);
+}
+.copyright {
+  margin-top: 15px;
 }
