@@ -70,12 +70,11 @@ hr {
   width: 60%;
 }
 .box-shadow {
-  width: 90%;
   margin: 30px auto;
   padding: 10px 0px 10px 0px;
   border-radius: 28px;
   background: #bfe0e0;
-  box-shadow: 5px 5px 16px #aac7c7, -5px -5px 16px #d4f9f9;
+  box-shadow: 25px 25px 50px #aac7c7, -25px -25px 50px #d4f9f9;
 }
 .AVA-IMG {
   width: 35%;
