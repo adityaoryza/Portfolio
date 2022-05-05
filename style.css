@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
   background-color: #e4f9f5;
 }
 .navbar {
-  padding: 2% 5% 5% 4%;
+  padding: 2% 0% 4% 0%;
   font-family: "Montserrat", sans-serif;
 }
 .navbar-brand {
@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   font-size: 2rem;
 }
 .container-fluid {
-  padding: 30px 50px 100px 50px;
+  /* padding: 30px 50px 100px 50px; */
 }
 .name-text {
   /* padding-top: 10%; */
@@ -31,15 +31,16 @@ body::-webkit-scrollbar {
 }
 .desc-text {
   text-align: center;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 .img-intro {
   text-align: center;
-  padding-bottom: 100%;
+  padding-bottom: 30%;
 }
 .self-img {
+  /* width:50% */
   /* margin: 0px 60px 0px 100px; */
-  margin-left: 5%;
+  margin-left: 10%;
 }
 h1 {
   font-family: "Sacramento", cursive;
@@ -63,7 +64,7 @@ hr {
 .content-1 {
   text-align: center;
   margin: 50px auto;
-  width: 60%;
+  width: 70%;
 }
 .AVA-IMG {
   width: 35%;
@@ -97,8 +98,8 @@ hr {
 }
 .footer-img {
   position: absolute;
-  top: 95%;
-  right: 65%;
+  top: 80%;
+  right: 60%;
 }
 .bottom-container {
   padding: 30px;
