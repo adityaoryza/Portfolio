@@ -17,9 +17,9 @@ body::-webkit-scrollbar {
   font-family: "Montserrat", sans-serif;
 }
 .navbar-brand {
-  font-family: "Winter_Sans", "Sacramento", cursive, sans-serif;
+  font-family: "Sacramento", cursive, sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 .container-fluid {
   padding-bottom: 10%;
@@ -114,7 +114,7 @@ hr {
 .bottom-container {
   padding: 10px;
   text-align: center;
-  background-color: #66bfbf;
+  background-color: #9eeeee;
 }
 a {
   text-decoration: none;
