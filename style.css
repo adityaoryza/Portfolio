@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   font-size: 2rem;
 }
 .container-fluid {
-  padding: 80px 50px 250px 50px;
+  padding: 30px 50px 100px 50px;
 }
 .name-text {
   /* padding-top: 10%; */
@@ -66,7 +66,7 @@ hr {
 }
 .graphic-design {
   /* float: left; */
-  width: 40%;
+  width: 60%;
   padding-bottom: 30px;
   /* border-radius: 50%; */
 }
@@ -84,7 +84,7 @@ hr {
   padding: 0;
 }
 .contactme-img {
-  width: 40%;
+  width: 50%;
   padding-bottom: 30px;
 }
 #content {
