@@ -33,8 +33,12 @@ body::-webkit-scrollbar {
   text-align: center;
   padding-bottom: 1.5rem;
 }
+.img-intro {
+  text-align: center;
+}
 .self-img {
-  margin: 0px 60px 0px 100px;
+  /* margin: 0px 60px 0px 100px; */
+  margin: 0 auto;
 }
 h1 {
   font-family: "Sacramento", cursive;
