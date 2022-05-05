@@ -38,7 +38,8 @@ body::-webkit-scrollbar {
   padding-bottom: 30%;
 }
 .self-img {
-  /* width:50% */
+  height: 256px;
+  width: 247px;
   /* margin: 0px 60px 0px 100px; */
   margin-left: 10%;
 }
@@ -71,6 +72,8 @@ hr {
   border-radius: 50%;
 }
 .graphic-design {
+  height: 261px;
+  width: 261px;
   /* float: left; */
   width: 60%;
   padding-bottom: 30px;
