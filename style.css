@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 }
 .self-img {
   /* margin: 0px 60px 0px 100px; */
-  margin: 0 auto;
+  margin-left: 5%;
 }
 h1 {
   font-family: "Sacramento", cursive;
@@ -96,8 +96,8 @@ hr {
 }
 .footer-img {
   position: absolute;
-  top: 90%;
-  right: 70%;
+  top: 95%;
+  right: 65%;
 }
 .bottom-container {
   padding: 30px;
