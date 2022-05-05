@@ -92,8 +92,8 @@ hr {
 }
 .footer-img {
   position: absolute;
-  top: 115%;
-  right: 49%;
+  top: 100%;
+  right: 60%;
 }
 .bottom-container {
   padding: 30px;
