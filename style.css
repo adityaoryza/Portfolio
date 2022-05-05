@@ -106,13 +106,25 @@ hr {
 #content {
   position: relative;
 }
-.footer-img {
-  position: absolute;
-  top: 80%;
-  right: 60%;
+.img-decoration {
+  /* position: relative; */
+  /* border: 1px solid black; */
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.img-decor {
+  margin-top: 30px;
+  /* width: 1088px; */
+  width: 272px;
+  /* height: 912px; */
+  height: 228px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .bottom-container {
-  padding: 10px;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   background-color: #9eeeee;
 }
