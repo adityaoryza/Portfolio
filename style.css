@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   font-size: 2rem;
 }
 .container-fluid {
-  /* padding: 30px 50px 100px 50px; */
+  padding-bottom: 10%;
 }
 .name-text {
   /* padding-top: 10%; */
