@@ -55,6 +55,7 @@ h2 {
   font-size: 1rem;
 }
 h3 {
+  font-size: 1.3rem;
   color: #11999e;
 }
 hr {
@@ -65,7 +66,7 @@ hr {
 }
 .content-1 {
   text-align: center;
-  margin: 50px auto;
+  margin: 30px auto;
   width: 70%;
 }
 .box-shadow {
@@ -81,11 +82,9 @@ hr {
   border-radius: 50%;
 }
 .graphic-design {
-  height: 261px;
-  width: 261px;
   /* float: left; */
   width: 60%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   /* border-radius: 50%; */
 }
 .text-1 {
