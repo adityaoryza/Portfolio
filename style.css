@@ -114,9 +114,9 @@ hr {
   position: relative;
 }
 .img-decoration {
-  position: relative;
+  /* position: relative; */
   /* border: 1px solid black; */
-  top: 100px;
+  /* top: 100px; */
   /* padding-top: 100x; */
   margin-bottom: 0px;
 }
