@@ -46,8 +46,10 @@ body::-webkit-scrollbar {
   padding-bottom: 30%;
 }
 .self-img {
-  height: 256px;
-  width: 247px;
+  width: 65%;
+  /* height: 256px;
+  
+  width: 247px; */
   /* margin: 0px 60px 0px 100px; */
   margin-left: 10%;
 }
@@ -92,9 +94,13 @@ hr {
 }
 .graphic-design {
   /* float: left; */
-  width: 60%;
+  width: 35%;
   padding-bottom: 20px;
   /* border-radius: 50%; */
+}
+.contactme-img {
+  width: 35%;
+  padding-bottom: 30px;
 }
 .text-1 {
   line-height: 2;
@@ -108,10 +114,6 @@ hr {
 }
 .row {
   padding: 0;
-}
-.contactme-img {
-  width: 50%;
-  padding-bottom: 30px;
 }
 #content {
   position: relative;
